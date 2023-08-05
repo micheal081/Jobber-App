@@ -14,12 +14,14 @@ import {
 } from "../components";
 
 const Home = () => {
+  const router = useRouter();
+
   return (
-    <View>
+    <SafeAreaView>
       <Text>Home</Text>
       <Text>Home</Text>
       <Text>I love you okay</Text>
-    </View>
+    </SafeAreaView>
   );
 };
 
