@@ -57,9 +57,9 @@ const styles = StyleSheet.create({
     marginTop: SIZES.medium,
   },
   tab: (activeJobType, item) => ({
-    paddingVertical: SIZES.small / 2,
-    paddingHorizontal: SIZES.small,
-    borderRadius: SIZES.medium,
+    paddingVertical: SIZES.small / 1.5,
+    paddingHorizontal: SIZES.large,
+    borderRadius: SIZES.large,
     borderWidth: 1,
     borderColor: activeJobType === item ? COLORS.secondary : COLORS.gray2,
   }),
