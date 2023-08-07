@@ -13,7 +13,7 @@ import { useRouter } from "expo-router";
 import styles from "./welcome.style";
 import { icons, SIZES } from "../../../constants";
 
-const jobTypes = ["Full-time", "Part-time", "Contractor"];
+const jobTypes = ["Full-time", "Part-time", "Contractor", "Internship"];
 
 const Welcome = () => {
   const router = useRouter();
@@ -61,6 +61,7 @@ const Welcome = () => {
           )}
           keyExtractor={(item) => item}
           contentContainerStyle={{ columnGap: SIZES.small }}
+          showsHorizontalScrollIndicator="false"
           horizontal
         />
       </View>
