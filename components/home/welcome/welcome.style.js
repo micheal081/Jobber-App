@@ -10,6 +10,7 @@ const styles = StyleSheet.create({
     fontFamily: FONT.regular,
     fontSize: SIZES.large,
     color: COLORS.secondary,
+    marginTop: SIZES.small,
   },
   welcomeMessage: {
     fontFamily: FONT.bold,
@@ -60,12 +61,13 @@ const styles = StyleSheet.create({
     paddingVertical: SIZES.small / 1.5,
     paddingHorizontal: SIZES.large,
     borderRadius: SIZES.large,
-    borderWidth: 1,
-    borderColor: activeJobType === item ? COLORS.secondary : COLORS.gray2,
+    borderWidth: 1.3,
+    backgroundColor: activeJobType === item ? COLORS.secondary : COLORS.lightWhite,
+    borderColor: COLORS.secondary,
   }),
   tabText: (activeJobType, item) => ({
     fontFamily: FONT.medium,
-    color: activeJobType === item ? COLORS.secondary : COLORS.gray2,
+    color: activeJobType === item ? COLORS.lightWhite : COLORS.secondary,
   }),
 });
 
