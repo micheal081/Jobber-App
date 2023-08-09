@@ -31,7 +31,7 @@ const styles = StyleSheet.create({
     marginTop: SIZES.small / 1.5,
   },
   infoContainer: {
-    marginTop: SIZES.large,
+    marginTop: SIZES.small / 1.5,
   },
   jobName: (selectedJob, item) => ({
     fontSize: SIZES.large,
